@@ -1,4 +1,1 @@
-local Hey! = true
-while true do
-  print("this script is no longer in use")
-end
+print("this script is outdated!")
