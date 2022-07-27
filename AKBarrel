@@ -20,8 +20,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
-           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
-           "Jobid: " ..(game.JobId)..""
+           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**" "Jobid: " ..(game.JobId).."",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
