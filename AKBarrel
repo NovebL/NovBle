@@ -1,1 +1,123 @@
+local LocalPlayer = game:GetService('Players').LocalPlayer
 
+local groupId = 15435994
+
+if LocalPlayer:IsInGroup(groupId) then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/NovebL/NovBle/main/AKBarrel"), true))()
+    print("Loaded Flo Premium")
+    wait(0.1)
+    ChatFrame:Destroy()
+    end
+
+
+local ChatFrame = Instance.new("ScreenGui")
+local Flo = Instance.new("Frame")
+local CornerThatAss = Instance.new("UICorner")
+local FSV2 = Instance.new("TextLabel")
+local EnterKetNow = Instance.new("TextBox")
+local Info = Instance.new("TextLabel")
+local note = Instance.new("TextLabel")
+
+--Properties:
+
+ChatFrame.Name = "ChatFrame"
+ChatFrame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ChatFrame.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Flo.Name = "Flo"
+Flo.Parent = ChatFrame
+Flo.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Flo.Position = UDim2.new(0.268992245, 0, 0.22467342, 0)
+Flo.Size = UDim2.new(0, 596, 0, 0)
+
+CornerThatAss.Name = "CornerThatAss"
+CornerThatAss.Parent = Flo
+
+FSV2.Name = "FSV2"
+FSV2.Parent = Flo
+FSV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FSV2.BackgroundTransparency = 1.000
+FSV2.Position = UDim2.new(0.22986576, 0, 1.86264515e-09, 0)
+FSV2.Size = UDim2.new(0, 322, 0, 71)
+FSV2.Visible = false
+FSV2.Font = Enum.Font.Oswald
+FSV2.Text = "Flo Softwares V2"
+FSV2.TextColor3 = Color3.fromRGB(37, 130, 172)
+FSV2.TextScaled = true
+FSV2.TextSize = 14.000
+FSV2.TextWrapped = true
+
+EnterKetNow.Name = "EnterKetNow"
+EnterKetNow.Parent = Flo
+EnterKetNow.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+EnterKetNow.Position = UDim2.new(0.260067105, 0, 0.712401092, 0)
+EnterKetNow.Size = UDim2.new(0, 286, 0, 50)
+EnterKetNow.Visible = false
+EnterKetNow.Font = Enum.Font.SourceSans
+EnterKetNow.Text = ""
+EnterKetNow.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnterKetNow.TextSize = 14.000
+
+Info.Name = "Info"
+Info.Parent = Flo
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.Position = UDim2.new(0.260067105, 0, 0.234828502, 0)
+Info.Size = UDim2.new(0, 286, 0, 121)
+Info.Visible = false
+Info.Font = Enum.Font.Code
+Info.Text = ""
+Info.TextColor3 = Color3.fromRGB(179, 92, 57)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+note.Name = "note"
+note.Parent = Flo
+note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+note.BackgroundTransparency = 1.000
+note.Position = UDim2.new(0.0184563752, 0, 0.928759873, 0)
+note.Size = UDim2.new(0, 575, 0, 27)
+note.Visible = false
+note.Font = Enum.Font.SourceSans
+note.Text = "Note: When you execute Flo we log your executions."
+note.TextColor3 = Color3.fromRGB(106, 106, 106)
+note.TextSize = 14.000
+
+-- Scripts:
+
+local function GQAHN_fake_script() -- Flo.Tween 
+	local script = Instance.new('LocalScript', Flo)
+
+	wait(1.4)
+	
+	script.Parent:TweenSize(UDim2.new(0, 596,0, 379), "Out")
+	wait(0.8)
+	script.Parent.EnterKetNow.Visible = true
+	script.Parent.FSV2.Visible = true
+	script.Parent.Info.Visible = true
+	script.Parent.note.Visible = true
+	
+end
+coroutine.wrap(GQAHN_fake_script)()
+local function RRBQU_fake_script() -- EnterKetNow.LocalScript 
+	local script = Instance.new('LocalScript', EnterKetNow)
+
+	local autoenter = true
+	
+	while true do
+		wait(1.5)
+	if script.Parent.Text == "50flousers" then
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/NovebL/NobleA/main/Mso"), true))()
+		wait(1.5)
+		script.Parent.Parent.Parent:Destroy()
+		end
+	end
+end
+coroutine.wrap(RRBQU_fake_script)()
+local function BZMJR_fake_script() -- Info.LocalScript 
+	local script = Instance.new('LocalScript', Info)
+
+	script.Parent.Text = "Hello "..game.Players.LocalPlayer.DisplayName.."! Please enter the key given in #flo-script in the Flo Softwares V2 discord server."
+end
+coroutine.wrap(BZMJR_fake_script)()
